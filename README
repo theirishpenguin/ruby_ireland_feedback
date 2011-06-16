@@ -1,0 +1,31 @@
+= Ruby Ireland Feedback Plugin for Rails
+
+Ruby Ireland Feedback is a Ruby on Rails plugin that is planned to be a Rails 3 compatible version of Jean-Sebastien Boulanger's excellent Feedback plugin at https://github.com/jsboulanger/feedback
+
+== Current State
+
+* An empty Rails 3 gem
+* Nothing else done
+* We believe if we build it they will come! Or at least leave feedback...
+
+== Motivation
+
+Jean-Sebastien Boulanger's Feedback plugin rocks. We'd like to make it work for Rails 3 peeps.
+
+== Building or Installing the gem 
+You can do one 
+* Building the (currently functionless) gem
+  cd ruby_ireland_feedback
+  rake build
+  You can then gem install the resulting gem
+* Bundle installing the (currently functionless) gem
+  cd ruby_ireland_feedback
+  bundle install
+
+== Acknowledgements
+
+Thanks to Jean-Sebastien Boulanger for the original feedback gem.
+
+Copyright (c) 2011 Declan McGrath <declanmg@gmail.com>, released under the MIT license
+
+The Irish Ruby community is at http://www.rubyireland.com
