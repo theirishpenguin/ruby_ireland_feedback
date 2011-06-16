@@ -1,4 +1,4 @@
-module RubyIreland
+module RubyIrelandFeedback
   class Railtie < ::Rails::Railtie
     rake_tasks do
       desc "Talk about being in my_gem"

@@ -1,8 +1,8 @@
-require File.expand_path("../lib/ruby_ireland/version", __FILE__)
+require File.expand_path("../lib/ruby_ireland_feedback/version", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name = "ruby_ireland"
-  s.version = RubyIreland::VERSION
+  s.name = "ruby_ireland_feedback"
+  s.version = RubyIrelandFeedback::VERSION
   s.platform = Gem::Platform::RUBY
   s.authors = ["Everyone", "And Co"]
   s.email = ["foo@rubyireland.com"]
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
 
   # lol - required for validation
-  s.rubyforge_project = "ruby_ireland"
+  s.rubyforge_project = "ruby_ireland_feedback"
 
   # If you have other dependencies, add them here
   # s.add_dependency "another", "~> 1.2"
@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
 
   # If you need an executable, add it here
-  # s.executables = ["ruby_ireland"]
+  # s.executables = ["ruby_ireland_feedback"]
 
   # If you have C extensions, uncomment this line
   # s.extensions = "ext/extconf.rb"
